@@ -7,5 +7,5 @@ We assume that you have populated the `OZprivate` directory herein with a `data`
 If you are on a unix-like system, and your [OZtree github clone](https://github.com/OneZoom/OZtree) is in the same parent directory as this repository, you can simply symlink them using e.g. 
 
 ```
-ln -s ../OZtree/OZprivate/data ./OZprivate/
+cd OZprivate && ln -s ../../OZtree/OZprivate/data ./
 ```
